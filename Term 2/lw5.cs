@@ -9,7 +9,7 @@ class Program {
             string? input = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(input))
-                throw new ArgumentException("Ошибка: пустая стркоа");
+                throw new ArgumentException("Ошибка: пустая строка");
 
             string[] array = input.Split([' ']);
             List<int> numbers = [];
